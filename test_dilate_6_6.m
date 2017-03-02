@@ -8,7 +8,8 @@ for i=0:4380
     inputpath=strcat(inputpath,'.dat');
    
     outputpath='F:\\anal_0_4380_dilate6_6\\';
-    outputpath=strcat(outputpath,str_i);
+    str_ii=int2str(i+1);
+    outputpath=strcat(outputpath,str_ii);
     outputpath=strcat(outputpath,'.dat');
     
    
